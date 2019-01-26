@@ -13,7 +13,7 @@ async def on_ready():
     print(client.user.id)
     print('-----')
 
-newUserMessage = """your message
+newUserMessage = """Welcome to Midnight! Make sure you read the #rules and invite your friends! https://discord.gg/juHsvv3
 """
 
 @client.event
