@@ -21,4 +21,4 @@ newUserMessage = """Welcome to Midnight! Make sure you read the #rules and invit
 async def on_member_join(member):
     await client.send_message(member, newUserMessage)
 
-client.run('your token') 
+client.run('your_token') 
